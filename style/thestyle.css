@@ -12,6 +12,9 @@ header {
     height: 50px;
     background:#66CCCC;
     text-align: center;
+    font-family: Serif;
+    font-size: 20px;
+    line-height: 1m;
 }
 
 .article-header {
@@ -21,8 +24,11 @@ header {
 nav,aside {
     background:#FFFFCC;
     width:200px;
-    height: 200px;
+    height: 909px;
     float: left;
+    font-family: Sans-seif;
+    font-size: 18px;
+    line-height: 1.75em;
 }
 
 article {
@@ -31,9 +37,5 @@ article {
     background: #ffffff;
     width: 597px;
     float: left;
-}
-
-#page-footer {
-    clear:left;
-    background:#383838;
+    font-style: Bold;
 }
