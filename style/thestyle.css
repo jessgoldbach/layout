@@ -4,12 +4,13 @@
     /*top, right, bottom, left */
     height: 1000px;
     background:#eeeeee;
+    border:4px solid #ADD8E6;
 }
 
 header {
     width: 100%;
     height: 50px;
-    background:#00CC66;
+    background:#66CCCC;
     text-align: center;
 }
 
@@ -20,17 +21,19 @@ header {
 nav,aside {
     background:#FFFFCC;
     width:200px;
+    height: 200px;
     float: left;
 }
 
 article {
     /*border: 1px solid #000000;*/
+    border: 1px solid #000000;
     background: #ffffff;
-    width: 400px;
+    width: 597px;
     float: left;
 }
 
 #page-footer {
     clear:left;
-    background:#dddddd;
+    background:#383838;
 }
