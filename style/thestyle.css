@@ -24,7 +24,7 @@ header {
 nav,aside {
     background:#FFFFCC;
     width:200px;
-    height: 909px;
+    height: 875px;
     float: left;
     font-family: Sans-seif;
     font-size: 18px;
@@ -38,4 +38,10 @@ article {
     width: 597px;
     float: left;
     font-style: Bold;
+}
+
+#page-footer {
+    clear:left;
+    background:#383838;
+    height: 45px;
 }
