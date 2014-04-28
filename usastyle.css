@@ -1,16 +1,36 @@
-h1 {
-    font-family: Arial;
-    font-size: 30px;
-    line-height: 2em;
-    /*font-style:Italic;*/
-    font-weight:Bold;
-    font-variant: small-caps;
+#headerlist {
+    text-align:center;
+    font-style:italic;
 }
-p1 {font:15px Times New Roman, serif;    
+#wrapper {
+    width:600px;
+    height:400px;
+        /* top, right, bottom, left margins*/
+    margin: 10px, auto, 10px, auto;
+     border:1px solid #000000;
 }
-
-h2 {font:20px Arial, serif;
-    font-style: Italic;
-    
+aside {
+    position:relative;
+   /*position relative, you only tell it how far away you want things from above it and below it, hence top and bottom is only used*/ 
+    top: 10px;
+    bottom:25px;
 }
-p2 {font: 19px Times New Roman, sansserif;
+footer {
+    position:relative;
+    top: 10px;
+}
+#red {  
+    position: fixed;
+    background: red;
+    bottom:10px;
+    right:46px;
+    /*this is kinda silly, well not really, but idk what i could use it for right now*/
+}
+#footer {
+    height: 30px;
+    border:2px solid #000000;
+   /*margin = top right bottom left*/
+    margin:10px 5px 15px 5px;
+    position:relative;
+    bottom:-7%;
+}
