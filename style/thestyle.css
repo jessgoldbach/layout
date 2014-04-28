@@ -1,8 +1,8 @@
 #wrapper {
-    width: 1000px;
+    width: 100%;
     margin: 10px auto 10px auto;
     /*top, right, bottom, left */
-    height: 1000px;
+    height:100%;
     background-image:url("http://www.athleat.co.uk/user/Grass_back.jpg");    
     border:4px solid #336666;
 }
