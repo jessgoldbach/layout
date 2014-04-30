@@ -19,7 +19,7 @@
     background-color: #679B00;
 }
 .links {
-    padding-top: 5px;
+    padding-top:5px;
     border-bottom:1px solid #000;
     border-top:1px solid #B9F73E;
     margin:10px, 0, 10px, 0;
@@ -59,7 +59,17 @@ li {
     margin:5px;
     padding: 2px;
     background: #666;
-    
+}
+p {
+    font-family: Goudy Old Style, Garamond, Big Caslon, Times New Roman, serif;
+    font-weight: bold;
+    font-size:30px;
+    text-align:center;
+    color:#fff;
+}
+img {
+    height:300px;
+    width:100%;    
 }
 .span3 {
     border: 2px solid #000;
@@ -72,20 +82,6 @@ li {
     margin:5px;
     padding: 2px;
     background: #fff;
-}
-
-@media screen and (max-width: 960px) {
-	
-	.container {
-		width: 94%;
-	}
-	article {
-		width: 65%;
-	}
-	aside {
-		width: 28%;
-	}
-
 }
 
 /* for 700px or less */
