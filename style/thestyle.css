@@ -3,12 +3,11 @@
     height:95%;
         /* top, right, bottom, left margins*/
     /*margin: auto, auto, 10px, auto;*/
-    border:1px solid #000000;
+    border:1px solid #000;
     background: #D4F870;
 }
 
 .pageheader {
-    width:99.8%;
     padding: 1px;
     /*background-image:url("http://www.athleat.co.uk/user/Grass_back.jpg");*/
     text-align:center;
@@ -94,12 +93,9 @@ img {
 }
 .footer {
     height:50px;
-    width:100%;
     border-top: 1px solid #000;
     background-color:#2C6700;
 }
-
-
 
 /* for 700px or less */
 @media screen and (max-width: 700px) {
