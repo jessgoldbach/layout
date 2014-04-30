@@ -2,7 +2,7 @@
     width:98%;
     height:98%;
         /* top, right, bottom, left margins*/
-    margin: 10px, auto, 10px, auto;
+    margin: auto, auto, 10px, auto;
     border:1px solid #000000;
     background: #f57;
 }
