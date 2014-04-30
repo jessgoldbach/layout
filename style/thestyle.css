@@ -96,8 +96,10 @@ img {
     background-color:#2C6700;
 }
 
+
+
 /* for 700px or less */
-@media screen and (max-width: 700px) {
+/*@media screen and (max-width: 700px) {
 
 	article {
 		width: auto;
@@ -112,7 +114,7 @@ img {
 }
 
 /* for 480px or less */
-@media screen and (max-width: 480px) {
+/*@media screen and (max-width: 480px) {
 
 	header.page {
 		height: auto;
@@ -124,8 +126,7 @@ img {
 		display: none;
 	}
 
-}
-
+}*/
 
 #page-footer {
     clear:left;
