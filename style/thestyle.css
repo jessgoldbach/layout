@@ -4,24 +4,26 @@
         /* top, right, bottom, left margins*/
     margin: auto, auto, 10px, auto;
     border:1px solid #000000;
-    background: #f57;
+    background: #D4F870;
 }
 
 .pageheader {
     width:99.8%;
-    border-bottom: 1px solid #000;
     padding: 1px;
-    background-image:url("http://www.athleat.co.uk/user/Grass_back.jpg");
+    /*background-image:url("http://www.athleat.co.uk/user/Grass_back.jpg");*/
     text-align:center;  
     font-family: sans-Serif;
     font-size: 15px;
-    text-shadow:1px 1px #FFFFFF; /*it says that IE versions before 9 do not support shadow effects*/
+    color: #FFFF75;
+    /*text-shadow:1px 1px #FFFFFF; /*it says that IE versions before 9 do not support shadow effects*/
+    background-color: #679B00;
 }
 .links {
-    border:2px solid #000;
-    margin:5px;
+    border-bottom:1px solid #000;
+    border-top:1px solid #B9F73E;
+    margin:10px, 0, 10px, 0;
     text-align:center;  
-    background: #666;
+    background: #B9F73E;
     font-size:20px;
     }
 li {
@@ -31,21 +33,25 @@ li {
     font-style:italic;
     display:inline;
     margin-right:10%;
+    margin-left: 5%;
 }
 .eu {
     font-style:italic;
     display:inline;
     margin-right:10%;
+    margin-left: 4%;
 }
 .can {
     font-style:italic;
     display:inline;
     margin-right:10%;
+    margin-left: 3%;
 }
 .car {
     font-style:italic;
     display:inline;
     margin-right:10%;
+    margin-left:3%;
 }
 .span6 {
     border:2px solid #000;
