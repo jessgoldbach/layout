@@ -18,38 +18,28 @@
 
 <body>
  <div class="container">
-    <header>
-        <h1>Where in the world are the Goldbach's?</h1>
-    </header>
-    
-   <div id="content">
-   <nav>
+<div class="row">
+    <header class="pageheader col-md-12"> 
+         <h1>Where in the world are the Goldbach's?</h1>
+    </header> 
+</div>
+    <nav class="linksbar col-md-12">
        <ul>
-       <dt><a href="usa.html" title="USA">USA</a></dt>
-       <dt><a href="europe.html" title="Europe">Europe</a></dt>
-       <dt><a href="canada.html" title="Canada">Canada</a></dt>
-       <dt><a href="carribean.html" title="Carribean">Carribean</a></dt>
-       </ul>
-       <ul>
-           <li>How to travel?</li>
-           <li>link 2</li>
-           <li>link 3</li>
-           </ul>
-       </nav>
-       
-       <article>
-           <header class="artilce-header">
-               <h1>Where would you like to travel?</h1>
-           </header>
-           
-           <section>
-               <p>This is where you can write a few lines about traveling. Why travel? etc. It's a paragraph, so write in it.</p>
-           </section>
-           
-           <footer>
-               <p>article footer</p>
-           </footer>
-           <div>
+       <li><a href="usa.html" title="USA">USA</a></li>
+       <li><a href="europe.html" title="Europe">Europe</a></li>
+       <li><a href="canada.html" title="canada">Canada</a></li>
+       <li><a href="carribean.html" title="Carribean">Carribean</a>
+    </ul>
+           <plinks> I want to have 4 different buttons with bootstrap for each region </plinks>
+</nav>
+
+<div class="row">
+     <div class="span6"><p>This is where you can write a few lines about traveling. Why travel? etc. It's a paragraph, so write in it.</p></div>
+      <div class="span3">you can add some more stuff here in this box. wah im lost with bootstrap</div>
+</div>
+
+<div class="row">
+ <div class="mail">
       <form action="mailto:goldbaj1@tcnj.edu" method="post" enctype="text/plain">
 <div class="form-group">
 <label>From</label>
@@ -69,50 +59,11 @@
 <input type="submit" class="btn btn-default" name="submit" value="Submit Feedback">
 </form>
 
-    </div>
-    </article>
-
-           <article>
-           <header class="artilce-header">
-               <h1>Where would you like to travel?</h1>
-           </header>
-           
-           <section>
-               <p>This is where you can write a few lines about traveling. Why travel? etc. It's a paragraph, so write in it.</p>
-           </section>
-           
-           <footer>
-               <p>article footer</p>
-           </footer>
-           <div>
-      <form action="mailto:goldbaj1@tcnj.edu" method="post" enctype="text/plain">
-<div class="form-group">
-<label>From</label>
-<input class="form-control" type="text" name="from" placeholder="Enter email">
+    </div> 
+         </div>
 </div>
-<br />
-<div class="form-group">
-<label>Subject</label>
-<input class="form-control" type="text" name="subject" placeholder="Enter Subject">
-</div>
-<br />
-<div class="form-group">
-<label>Message</label>
-<textarea class="form-control" name="message"></textarea>
-</div>
-<br />
-<input type="submit" class="btn btn-default" name="submit" value="Submit Feedback">
-</form>
 
     </div>
-    </article>
-    </div>
-    <footer id="page-footer">
-        <p>page footer</p>
-    </footer>
-</div>
-  
-</div>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
