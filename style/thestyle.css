@@ -11,20 +11,20 @@
     width:99.8%;
     padding: 1px;
     /*background-image:url("http://www.athleat.co.uk/user/Grass_back.jpg");*/
-    text-align:center;  
+    text-align:center;
     font-family: sans-Serif;
     font-size: 15px;
     color: #FFFF75;
     /*text-shadow:1px 1px #FFFFFF; /*it says that IE versions before 9 do not support shadow effects*/
-    background-color: #679B00;
+    background-color: #2C6700;
 }
 .links {
     padding-top:5px;
     border-bottom:1px solid #000;
     border-top:1px solid #B9F73E;
     margin:10px, 0, 10px, 0;
-    text-align:center;  
-    background: #B9F73E;
+    text-align:center;
+    background: #92CD00;
     font-size:20px;
     }
 li {
@@ -54,28 +54,37 @@ li {
     margin-right:10%;
     margin-left:3%;
 }
-.span6 {
+.thanks {
     border:2px solid #000;
-    margin:5px;
-    padding: 2px;
-    background: #666;
+    margin:3px;
+    margin-top:20px;
+    padding: 5px;
+    background: #E5E4D7;
+    color:#0E200E;
+    font-size:19px;
+    text-align:center;
 }
-p {
+.quote {
     font-family: Goudy Old Style, Garamond, Big Caslon, Times New Roman, serif;
     font-weight: bold;
     font-size:30px;
     text-align:center;
-    color:#fff;
+    color:#666;
+    margin:20px;
 }
 img {
-    height:300px;
-    width:100%;    
+    height:400px;
+    width:95%;
+    margin-left: 15px;
+    margin-top:15px;
+    margin-right:15px;
+    margin-bottom: 10px;
 }
 .span3 {
     border: 2px solid #000;
     margin:5px;
     padding: 2px;
-    background: #666; 
+    background: #666;
 }
 .mail {
     border: 2px solid #000;
@@ -83,6 +92,7 @@ img {
     padding: 2px;
     background: #fff;
 }
+
 
 /* for 700px or less */
 @media screen and (max-width: 700px) {
