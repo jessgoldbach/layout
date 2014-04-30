@@ -19,6 +19,7 @@
     background-color: #679B00;
 }
 .links {
+    padding: 5px;
     border-bottom:1px solid #000;
     border-top:1px solid #B9F73E;
     margin:10px, 0, 10px, 0;
