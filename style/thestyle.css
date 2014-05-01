@@ -70,14 +70,52 @@ li {
     color:#666;
     margin:20px;
 }
-img {
-    height:400px;
-    width:95%;
-    margin-left: 15px;
-    margin-top:15px;
-    margin-right:15px;
-    margin-bottom: 10px;
+.picsbox {
+    border: 1px solid #000;
+    height: 300px;
+    
 }
+.first {
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+    width:49%;
+    height: 100%;
+    float: left;
+   }
+img {
+    width: 100%;
+    height: 100%;
+}
+.second {
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+.picsbox2 {
+    border: 1px solid #000;
+    height: 300px;
+    margin: 10px;
+}
+.third {
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+    width: 49%;
+    height: 100%;
+    float: left;
+    
+}
+.fourth {
+    border-left: 1px solid #000;
+     border-bottom: 1px solid #000;
+    width:50%;
+    height:100%;
+    float: right;
+}
+
+
+
 .span3 {
     border: 2px solid #000;
     margin:5px;
