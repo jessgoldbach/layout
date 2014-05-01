@@ -1,58 +1,108 @@
-#wrapper {
-    width:100%;
-    height:100%;
+.container {
+    width:95%;
         /* top, right, bottom, left margins*/
-    margin: 10px, auto, 10px, auto;
-    border:1px solid #000000;
-    background: #666;
+    /*margin: auto, auto, 10px, auto;*/
+    border:1px solid #000;
+    background: #679ED2;
 }
 
-#headerlist {
+.pageheader {
+    padding: 1px;
+    /*background-image:url("http://www.athleat.co.uk/user/Grass_back.jpg");*/
     text-align:center;
+    font-family: sans-Serif;
+    font-size: 15px;
+    color: #FFF;
+    /*text-shadow:1px 1px #FFFFFF; /*it says that IE versions before 9 do not support shadow effects*/
+    background-color: #FF4040;
+}
+.links {
+    padding-top:5px;
+    border-bottom:1px solid #fff;
+    border-top:1px solid #fff;
+    margin:10px, 0, 10px, 0;
+    text-align:center;
+    background: #fff;
+    font-size:20px;
+    }
+li {
+    display:inline;
+    }
+.usa {
     font-style:italic;
-    padding-top:10px;
+    display:inline;
+    margin-right:10%;
+    margin-left: 5%;
 }
-header {
-    font-size:40px;
+.eu {
+    font-style:italic;
+    display:inline;
+    margin-right:10%;
+    margin-left: 4%;
 }
-#ushasthis {
-    border: 1px solid #000;
-    margin: 10px;
+.can {
+    font-style:italic;
+    display:inline;
+    margin-right:10%;
+    margin-left: 3%;
+}
+.car {
+    font-style:italic;
+    display:inline;
+    margin-right:10%;
+    margin-left:3%;
+}
+.home {
+    font-style:italic;
+    display:inline;
+    margin-right:10%;
+    margin-left:3%;
+}
+.usinfo {
+    /*border:2px solid #000;*/
+    margin:20px;
     padding: 5px;
-    background: #99FF66;
+    background: #E5E4D7;
+    color:#0E200E;
+    font-size:19px;
+    text-align:center;
+    width: 90%;
 }
-#article {
-    border: 2px solid #FFF;
-    margin: 10px;
-    padding-bottom:10px;
-    padding-left: 10px;
-    
+.quote {
+    font-family: Goudy Old Style, Garamond, Big Caslon, Times New Roman, serif;
+    font-weight: bold;
+    font-size:22px;
+    text-align:center;
+    color:#150C31;
+    margin:20px;
 }
-aside {
-    position:relative;
-   /*position relative, you only tell it how far away you want things from above it and below it, hence top and bottom is only used*/ 
-    top: 10px;
-    bottom:25px;
+/*.span3 {
+    border: 2px solid #000;
+    margin:5px;
+    padding: 2px;
+    background: #666;
+}*/
+.footer {
+    height:50px;
+    border-top: 1px solid #000;
+    background-color:#2C6700;
 }
-footer {
-    position:relative;
-    top: 10px;
+
+.table {
+    width:56%;
+    border:1px solid black;
+    border-collapse:collapse;
+   background-color: #666;
+    margin-left:20%;
+   
 }
-#red {  
-    position: fixed;
-    background: red;
-    bottom:10px;
-    right:46px;
-    /*this is kinda silly, well not really, but idk what i could use it for right now*/
+th,td {
+    border:1px solid black;
+    border-collapse:collapse;
+     background-color: #ccc;
+    padding:15px;
 }
-#footer {
-    height: 30px;
-    border:2px solid #000000;
-   /*margin = top right bottom left*/
-    margin:100px 5px 5px 5px;
-    position:relative;
-    padding-left:5px;
-    padding-bottom:5px;
-    background: #FFFFCC;
-    
- }
+th {
+    font-size:20px;
+}
+
