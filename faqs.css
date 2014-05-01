@@ -1,0 +1,168 @@
+.container {
+    width:95%;
+        /* top, right, bottom, left margins*/
+    /*margin: auto, auto, 10px, auto;*/
+    border:1px solid #000;
+    background: #D4F870;
+}
+
+.pageheader {
+    padding: 1px;
+    /*background-image:url("http://www.athleat.co.uk/user/Grass_back.jpg");*/
+    text-align:center;
+    font-family: sans-Serif;
+    font-size: 25px;
+    color: #FFFF75;
+    /*text-shadow:1px 1px #FFFFFF; /*it says that IE versions before 9 do not support shadow effects*/
+    background-color: #2C6700;
+}
+.links {
+    padding-top:25px;
+    border-bottom:1px solid #92CD00;
+    border-top:1px solid #92CD00;
+    margin:10px, 0, 10px, 0;
+    text-align:center;
+    background: #92CD00;
+    font-size:20px;
+    }
+li {
+    display:inline;
+    }
+.usa {
+    font-style:italic;
+    display:inline;
+    margin-right:10%;
+    margin-left: 5%;
+}
+.eu {
+    font-style:italic;
+    display:inline;
+    margin-right:10%;
+    margin-left: 4%;
+}
+.can {
+    font-style:italic;
+    display:inline;
+    margin-right:10%;
+    margin-left: 3%;
+}
+.car {
+    font-style:italic;
+    display:inline;
+    margin-right:10%;
+    margin-left:3%;
+}
+.home {
+    font-style:italic;
+    display:inline;
+    margin-right:10%;
+    margin-left:3%;
+}
+
+.thanks {
+    border:2px solid #000;
+    margin:20px;
+    padding: 5px;
+    background: #E5E4D7;
+    color:#0E200E;
+    font-size:19px;
+    text-align:center;
+    width: 90%;
+}
+.questions {
+    border:1px solid #2C6700;
+    margin:5%;
+    background-color:#ECFC71;
+    padding:2%;
+}
+h1 {
+    color:#2C6700;
+    font-size:25px;
+}
+p1 {
+    color: #666;
+    font-size: 15px;
+}
+
+.quote {
+    font-family: Goudy Old Style, Garamond, Big Caslon, Times New Roman, serif;
+    font-weight: bold;
+    font-size:33px;
+    text-align:center;
+    color:#666;
+    margin:20px;
+}
+/*img {
+    height:400px;
+    width:95%;
+    margin-left: 15px;
+    margin-top:15px;
+    margin-right:15px;
+    margin-bottom: 10px;
+}*/
+.span3 {
+    border: 2px solid #000;
+    margin:5px;
+    padding: 2px;
+    background: #666;
+}
+.mail {
+    border: 2px solid #000;
+    margin:5px;
+    padding: 2px;
+    background: #fff;
+}
+.footer {
+    height:50px;
+    border-top: 1px solid #000;
+    background-color:#2C6700;
+}
+.picsbox {
+    
+    height: 300px;
+    
+}
+.first {
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+    border-top: 1px solid #000;
+    width:49%;
+    height: 100%;
+    float: left;
+   }
+img {
+    width: 100%;
+    height: 100%;
+}
+.second {
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+.picsbox2 {
+   
+    height: 300px;
+    margin-top: 10px;
+}
+.third {
+    border-top: 1px solid #000;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+    width: 49%;
+    height: 100%;
+    float: left;
+    
+}
+.fourth {
+   border-top: 1px solid #000;
+    border-left: 1px solid #000;
+     border-bottom: 1px solid #000;
+    width:50%;
+    height:100%;
+    float: right;
+}
+
+
