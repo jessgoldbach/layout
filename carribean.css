@@ -13,7 +13,7 @@
     font-family: sans-Serif;
     font-size: 20px;
     color: #FFF;
-    /*text-shadow:1px 1px #FFFFFF; /*it says that IE versions before 9 do not support shadow effects*/
+    text-shadow:2px 4px #FFFFFF; /*it says that IE versions before 9 do not support shadow effects*/
     background-color: #0A67A3;
 }
 .links {
