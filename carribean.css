@@ -13,7 +13,7 @@
     font-family: sans-Serif;
     font-size: 20px;
     color: #FFF;
-    text-shadow:2px 4px #000; /*it says that IE versions before 9 do not support shadow effects*/
+    /*text-shadow:1px 1px #FFFFFF; /*it says that IE versions before 9 do not support shadow effects*/
     background-color: #0A67A3;
 }
 .links {
@@ -60,7 +60,8 @@ li {
 }
 .thanks {
     border:2px solid #000;
-    margin:20px;
+    margin:4%;
+    width:50%;
     padding: 5px;
     background: #E5E4D7;
     color:#0E200E;
@@ -100,52 +101,9 @@ li {
     border-top: 1px solid #000;
     background-color:#2C6700;
 }
-.picsbox {
-    
-    height: 300px;
-    
-}
-.first {
-    border-right: 1px solid #000;
-    border-bottom: 1px solid #000;
-    border-top: 1px solid #000;
-    width:49%;
-    height: 100%;
-    float: left;
-   }
+
 img {
     width: 100%;
     height: 100%;
 }
-.second {
-    border-top: 1px solid #000;
-    border-bottom: 1px solid #000;
-    border-left: 1px solid #000;
-    width: 50%;
-    height: 100%;
-    float: right;
-}
-.picsbox2 {
-   
-    height: 300px;
-    margin-top: 10px;
-}
-.third {
-    border-top: 1px solid #000;
-    border-right: 1px solid #000;
-    border-bottom: 1px solid #000;
-    width: 49%;
-    height: 100%;
-    float: left;
-    
-}
-.fourth {
-   border-top: 1px solid #000;
-    border-left: 1px solid #000;
-     border-bottom: 1px solid #000;
-    width:50%;
-    height:100%;
-    float: right;
-}
-
 
