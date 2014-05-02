@@ -1,5 +1,5 @@
 .container {
-    width:95%;
+    width:75%;
         /* top, right, bottom, left margins*/
     /*margin: auto, auto, 10px, auto;*/
     border:1px solid #000;
@@ -156,3 +156,4 @@ img {
     border: 4px solid #666;
     padding: 2%;
 }
+
