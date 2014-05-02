@@ -1,5 +1,5 @@
 .container {
-    width:95%;
+    width:75%;
         /* top, right, bottom, left margins*/
     /*margin: auto, auto, 10px, auto;*/
     border:1px solid #000;
@@ -47,6 +47,12 @@ li {
     margin-left: 3%;
 }
 .car {
+    font-style:italic;
+    display:inline;
+    margin-right:10%;
+    margin-left:3%;
+}
+.home {
     font-style:italic;
     display:inline;
     margin-right:10%;
