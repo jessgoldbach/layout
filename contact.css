@@ -52,6 +52,12 @@ li {
     margin-right:10%;
     margin-left:3%;
 }
+.home {
+    font-style:italic;
+    display:inline;
+    margin-right:10%;
+    margin-left:3%;
+}
 .thanks {
     border:2px solid #000;
     margin:20px;
