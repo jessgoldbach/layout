@@ -1,5 +1,5 @@
 .container {
-    width:75%;
+    width:95%;
         /* top, right, bottom, left margins*/
     /*margin: auto, auto, 10px, auto;*/
     border:1px solid #000;
@@ -11,13 +11,12 @@
     /*background-image:url("http://www.athleat.co.uk/user/Grass_back.jpg");*/
     text-align:center;
     font-family: sans-Serif;
-    font-size: 15px;
+    font-size: 20px;
     color: #FFFF75;
-    /*text-shadow:1px 1px #FFFFFF; /*it says that IE versions before 9 do not support shadow effects*/
+    text-shadow:2px 3px #000; /*it says that IE versions before 9 do not support shadow effects*/
     background-color: #2C6700;
 }
 .links {
-    width:100%;
     padding-top:5px;
     border-bottom:1px solid #92CD00;
     border-top:1px solid #92CD00;
@@ -61,7 +60,7 @@ li {
     color:#0E200E;
     font-size:19px;
     text-align:center;
-    width: 95%;
+    width: 90%;
 }
 .quote {
     font-family: Goudy Old Style, Garamond, Big Caslon, Times New Roman, serif;
@@ -71,14 +70,7 @@ li {
     color:#666;
     margin:20px;
 }
-/*img {
-    height:400px;
-    width:95%;
-    margin-left: 15px;
-    margin-top:15px;
-    margin-right:15px;
-    margin-bottom: 10px;
-}*/
+
 .span3 {
     border: 2px solid #000;
     margin:5px;
@@ -102,9 +94,7 @@ li {
     
 }
 .first {
-    border-right: 1px solid #000;
-    border-bottom: 1px solid #000;
-    border-top: 1px solid #000;
+    border: 1px solid #000;
     width:49%;
     height: 100%;
     float: left;
@@ -114,9 +104,7 @@ img {
     height: 100%;
 }
 .second {
-    border-top: 1px solid #000;
-    border-bottom: 1px solid #000;
-    border-left: 1px solid #000;
+    border: 1px solid #000;
     width: 50%;
     height: 100%;
     float: right;
@@ -127,57 +115,17 @@ img {
     margin-top: 10px;
 }
 .third {
-    border-top: 1px solid #000;
-    border-right: 1px solid #000;
-    border-bottom: 1px solid #000;
+     border: 1px solid #000;
     width: 49%;
     height: 100%;
     float: left;
     
 }
 .fourth {
-   border-top: 1px solid #000;
-    border-left: 1px solid #000;
-     border-bottom: 1px solid #000;
+    border: 1px solid #000;
     width:50%;
     height:100%;
     float: right;
 }
 
 
-
-/* for 700px or less */
-/*@media screen and (max-width: 700px) {
-
-	article {
-		width: auto;
-		float: none;
-	}
-    
-	aside {
-		width: auto;
-		float: none;
-	}
-
-}
-
-/* for 480px or less */
-/*@media screen and (max-width: 480px) {
-
-	header.page {
-		height: auto;
-	}
-	h1 {
-		font-size: 24px;
-	}
-	aside {
-		display: none;
-	}
-
-}*/
-
-#page-footer {
-    clear:left;
-    background:#383838;
-    height: 45px;
-}
