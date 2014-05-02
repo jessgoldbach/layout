@@ -11,15 +11,16 @@
     /*background-image:url("http://www.athleat.co.uk/user/Grass_back.jpg");*/
     text-align:center;
     font-family: sans-Serif;
-    font-size: 25px;
+    font-size: 21px;
     color: #FFFF75;
     /*text-shadow:1px 1px #FFFFFF; /*it says that IE versions before 9 do not support shadow effects*/
     background-color: #2C6700;
 }
 .links {
-    padding-top:25px;
+    padding-top:5px;
     border-bottom:1px solid #92CD00;
     border-top:1px solid #92CD00;
+    margin:10px, 0, 10px, 0;
     text-align:center;
     background: #92CD00;
     font-size:20px;
@@ -27,6 +28,7 @@
 li {
     display:inline;
     }
+
 .usa {
     font-style:italic;
     display:inline;
@@ -60,7 +62,8 @@ li {
 
 .thanks {
     border:2px solid #000;
-    margin:20px;
+    margin:4%;
+    width:50%;
     padding: 5px;
     background: #E5E4D7;
     color:#0E200E;
@@ -69,10 +72,12 @@ li {
     width: 90%;
 }
 .questions {
-    border:1px solid #2C6700;
-    margin:5%;
+    border:2px solid #2C6700;
+    margin:4%;
+    width:50%;
+    padding:5px;
     background-color:#ECFC71;
-    padding:2%;
+    width:90%;
 }
 h1 {
     color:#2C6700;
