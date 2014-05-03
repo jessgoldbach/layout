@@ -3,7 +3,7 @@
         /* top, right, bottom, left margins*/
     /*margin: auto, auto, 10px, auto;*/
     border:1px solid #000;
-    background-color: #5ED2BD;
+    background-color: #E43B3F;
 }
 
 .pageheader {
@@ -11,18 +11,18 @@
     /*background-image:url("http://www.athleat.co.uk/user/Grass_back.jpg");*/
     text-align:center;
     font-family: sans-Serif;
-    font-size: 20px;
+    font-size: 24px;
     color: #FFF;
-    text-shadow:2px 3px #000; /*it says that IE versions before 9 do not support shadow effects*/
-    background-color: #0A67A3;
+    text-shadow:2px 4px #000; /*it says that IE versions before 9 do not support shadow effects*/
+    background-color: #C90207;
 }
 .links {
     padding-top:5px;
-    border-bottom:1px solid #FFCD40;
-    border-top:1px solid #FFCD40;
+    border-bottom:1px solid #FFF;
+    border-top:1px solid #FFF;
     margin:10px, 0, 10px, 0;
     text-align:center;
-    background: #FFCD40;
+    background: #FFF;
     font-size:20px;
     }
 li {
@@ -57,8 +57,7 @@ li {
     display:inline;
     margin-right:10%;
     margin-left:3%;
-}
-
+} 
 .home {
     font-style:italic;
     display:inline;
@@ -108,9 +107,52 @@ li {
     border-top: 1px solid #000;
     background-color:#2C6700;
 }
-
+.picsbox {
+    
+    height: 300px;
+    
+}
+.first {
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+    border-top: 1px solid #000;
+    width:49%;
+    height: 100%;
+    float: left;
+   }
 img {
     width: 100%;
     height: 100%;
 }
+.second {
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+.picsbox2 {
+   
+    height: 300px;
+    margin-top: 10px;
+}
+.third {
+    border-top: 1px solid #000;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+    width: 49%;
+    height: 100%;
+    float: left;
+    
+}
+.fourth {
+   border-top: 1px solid #000;
+    border-left: 1px solid #000;
+     border-bottom: 1px solid #000;
+    width:50%;
+    height:100%;
+    float: right;
+}
+
 
