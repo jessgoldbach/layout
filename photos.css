@@ -191,6 +191,8 @@ body{
      * Change this to set the spacing of the images in the grid
      */
     padding:10px;
+    width:50%;
+    width:90%;
   }
 
 /* from transitions.css */
