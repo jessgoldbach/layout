@@ -1,5 +1,3 @@
-alert("My first linked Javascript!");
-
 /*!
  *
  * jQuery collagePlus Plugin v0.3.2
