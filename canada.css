@@ -52,6 +52,12 @@ li {
     margin-right:10%;
     margin-left:3%;
 }
+.pics {
+    font-style:italic;
+    display:inline;
+    margin-right:10%;
+    margin-left:3%;
+} 
 .home {
     font-style:italic;
     display:inline;
