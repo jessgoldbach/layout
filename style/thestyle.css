@@ -28,6 +28,7 @@
 li {
     display:inline;
     }
+
 .usa {
     font-style:italic;
     display:inline;
@@ -47,6 +48,12 @@ li {
     margin-left: 3%;
 }
 .car {
+    font-style:italic;
+    display:inline;
+    margin-right:10%;
+    margin-left:3%;
+}
+.pics {
     font-style:italic;
     display:inline;
     margin-right:10%;
