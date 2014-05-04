@@ -201,6 +201,10 @@ body{
      * Change this to set the spacing of the images in the grid
      */
     padding:10px;
+    margin-right:15%;
+    margin-left:15%;
+    width:50%;
+    width:90%;
    
   }
 
@@ -216,10 +220,6 @@ A library of transitions for revealing the loaded images
     -webkit-perspective: 1300px;
     -moz-perspective: 1300px;
     perspective: 1300px;
-    margin-right:15%;
-    margin-left:15%;
-    width:50%;
-    width:90%;
     }
 
 
