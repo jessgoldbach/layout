@@ -24,7 +24,7 @@ $('.Collage').collagePlus(
     }
 );
 
-$('.Collage').collagePlus(
-      'allowPartialLastRow' : true
-);
+//$('.Collage').collagePlus(
+     // 'allowPartialLastRow' : true
+//);
     
