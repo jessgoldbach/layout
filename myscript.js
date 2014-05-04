@@ -17,7 +17,7 @@
 $('.Collage').collagePlus(
     {
         // change this to adjust the height of the rows
-        'targetHeight' : 400,
+        'targetHeight' : 250,
         // change this to try different effects
         // valid effets = effect-1 to effect-6
         'effect' : "effect-1"
