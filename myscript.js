@@ -17,14 +17,14 @@
 $('.Collage').collagePlus(
     {
         // change this to adjust the height of the rows
-        'targetHeight' : 300,
+        'targetHeight' : 400,
         // change this to try different effects
         // valid effets = effect-1 to effect-6
         'effect' : "effect-1"
     }
 );
 
-// $('.Collage').collagePlus(
-  //      'allowPartialLastRow' : true
-    //);
+$('.Collage').collagePlus(
+      'allowPartialLastRow' : true
+);
     
