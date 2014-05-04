@@ -1,0 +1,413 @@
+.container {
+    width:75%;
+        /* top, right, bottom, left margins*/
+    /*margin: auto, auto, 10px, auto;*/
+    border:1px solid #000;
+    background: #D4F870;
+}
+
+.pageheader {
+    padding: 1px;
+    /*background-image:url("http://www.athleat.co.uk/user/Grass_back.jpg");*/
+    text-align:center;
+    font-family: sans-Serif;
+    font-size: 22px;
+    color: #FFFF75;
+    text-shadow:1px 3px #000; /*it says that IE versions before 9 do not support shadow effects*/
+    background-color: #2C6700;
+}
+.links {
+    padding-top:5px;
+    border-bottom:1px solid #92CD00;
+    border-top:1px solid #92CD00;
+    margin:10px, 0, 10px, 0;
+    text-align:center;
+    background: #92CD00;
+    font-size:20px;
+    }
+li {
+    display:inline;
+    }
+
+.usa {
+    font-style:italic;
+    display:inline;
+    margin-right:10%;
+    margin-left: 5%;
+}
+.eu {
+    font-style:italic;
+    display:inline;
+    margin-right:10%;
+    margin-left: 4%;
+}
+.can {
+    font-style:italic;
+    display:inline;
+    margin-right:10%;
+    margin-left: 3%;
+}
+.car {
+    font-style:italic;
+    display:inline;
+    margin-right:10%;
+    margin-left:3%;
+}
+.pics {
+    font-style:italic;
+    display:inline;
+    margin-right:10%;
+    margin-left:3%;
+}
+.home {
+    font-style:italic;
+    display:inline;
+    margin-right:10%;
+    margin-left:3%;
+}
+
+.thanks {
+    border:2px solid #000;
+    margin:4%;
+    width:50%;
+    padding: 5px;
+    background: #E5E4D7;
+    color:#0E200E;
+    font-size:19px;
+    text-align:center;
+    width: 90%;
+}
+.questions {
+    border:2px solid #2C6700;
+    margin:4%;
+    width:50%;
+    padding:5px;
+    background-color:#ECFC71;
+    width:90%;
+}
+h1 {
+    color:#2C6700;
+    font-size:25px;
+}
+p1 {
+    color: #666;
+    font-size: 15px;
+}
+
+.quote {
+    font-family: Goudy Old Style, Garamond, Big Caslon, Times New Roman, serif;
+    font-weight: bold;
+    font-size:33px;
+    text-align:center;
+    color:#666;
+    margin:20px;
+}
+/*img {
+height:400px;
+width:95%;
+margin-left: 15px;
+margin-top:15px;
+margin-right:15px;
+margin-bottom: 10px;
+}*/
+.span3 {
+    border: 2px solid #000;
+    margin:5px;
+    padding: 2px;
+    background: #666;
+}
+.mail {
+    border: 2px solid #000;
+    margin:5px;
+    padding: 2px;
+    background: #fff;
+}
+.footer {
+    height:50px;
+    border-top: 1px solid #000;
+    background-color:#2C6700;
+}
+.picsbox {
+    
+    height: 300px;
+    
+}
+.first {
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+    border-top: 1px solid #000;
+    width:49%;
+    height: 100%;
+    float: left;
+   }
+/*img {
+width: 100%;
+height: 100%;
+}*/
+.second {
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+.picsbox2 {
+   
+    height: 300px;
+    margin-top: 10px;
+}
+.third {
+    border-top: 1px solid #000;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+    width: 49%;
+    height: 100%;
+    float: left;
+    
+}
+.fourth {
+   border-top: 1px solid #000;
+    border-left: 1px solid #000;
+     border-bottom: 1px solid #000;
+    width:50%;
+    height:100%;
+    float: right;
+}
+
+
+
+
+body{
+    background-color:#F1F1F1;
+}
+/* border:1px solid #000;
+width: 50%;
+width:90%;
+margin:4%;
+}*/
+.Collage img {
+    opacity:0;
+    box-shadow:0px 3px 4px #dcdcdc;
+    border-radius: 6px;
+    /*
+* Change this to try different borders
+*/
+    border:6px solid #fff;
+}
+
+ .Collage{
+    /*
+* Change this to set the spacing of the images in the grid
+*/
+    padding:10px;
+    margin-right:10%;
+    margin-left:10%;
+    width:50%;
+    width:90%;
+   
+  }
+
+/* from transitions.css */
+/*
+
+A library of transitions for revealing the loaded images
+(Heavily) Inspired by http://tympanus.net/codrops/2013/07/02/loading-effects-for-grid-items-with-css-animations/
+
+*/
+
+.effect-parent {
+    -webkit-perspective: 1300px;
+    -moz-perspective: 1300px;
+    perspective: 1300px;
+    }
+
+
+/* EFFECT 1 */
+.effect-1 {
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transform-origin: 50% 50% -300px;
+    -moz-transform-origin: 50% 50% -300px;
+    transform-origin: 50% 50% -300px;
+    -webkit-transform: rotateX(-180deg);
+    -moz-transform: rotateX(-180deg);
+    transform: rotateX(-180deg);
+    -webkit-animation: fly ease-in-out forwards;
+    -moz-animation: fly ease-in-out forwards;
+    animation: fly ease-in-out forwards;
+}
+@-webkit-keyframes fly {
+    100% { -webkit-transform: rotateX(0deg); opacity: 1; -webkit-transform-origin:50% 50% 0; }
+}
+
+@-moz-keyframes fly {
+    100% { -moz-transform: rotateX(0deg); opacity: 1; -moz-transform-origin:50% 50% 0; }
+}
+
+@keyframes fly {
+    100% { transform: rotateX(0deg); opacity: 1; transform-origin:50% 50% 0; }
+}
+
+
+
+/* EFFECT 2 */
+.effect-2 {
+    -webkit-transform: translateY(200px);
+    -moz-transform: translateY(200px);
+    transform: translateY(200px);
+    -webkit-animation: moveUp ease forwards;
+    -moz-animation: moveUp ease forwards;
+    animation: moveUp ease forwards;
+}
+
+@-webkit-keyframes moveUp {
+    to { -webkit-transform: translateY(0); opacity: 1; }
+}
+
+@-moz-keyframes moveUp {
+    to { -moz-transform: translateY(0); opacity: 1; }
+}
+
+@keyframes moveUp {
+    to { transform: translateY(0); opacity: 1; }
+}
+
+
+/* EFFECT 3 */
+.effect-3 {
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transform: translateZ(400px) translateY(300px) rotateX(-90deg);
+    -moz-transform: translateZ(400px) translateY(300px) rotateX(-90deg);
+    transform: translateZ(400px) translateY(300px) rotateX(-90deg);
+    -webkit-animation: fallPerspective ease-in-out forwards;
+    -moz-animation: fallPerspective ease-in-out forwards;
+    animation: fallPerspective ease-in-out forwards;
+}
+
+@-webkit-keyframes fallPerspective {
+    100% { -webkit-transform: translateZ(0px) translateY(0px) rotateX(0deg); opacity: 1; }
+}
+
+@-moz-keyframes fallPerspective {
+    100% { -moz-transform: translateZ(0px) translateY(0px) rotateX(0deg); opacity: 1; }
+}
+
+@keyframes fallPerspective {
+    100% { transform: translateZ(0px) translateY(0px) rotateX(0deg); opacity: 1; }
+}
+
+
+/* EFFECT 4 */
+.effect-4 {
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transform-origin: 0% 0%;
+    -moz-transform-origin: 0% 0%;
+    transform-origin: 0% 0%;
+    -webkit-transform: rotateX(-80deg);
+    -moz-transform: rotateX(-80deg);
+    transform: rotateX(-80deg);
+    -webkit-animation: flip ease-in-out forwards;
+    -moz-animation: flip ease-in-out forwards;
+    animation: flip ease-in-out forwards;
+}
+
+@-webkit-keyframes flip {
+    100% { -webkit-transform: rotateX(0deg); opacity: 1; }
+}
+
+@-moz-keyframes flip {
+    100% { -moz-transform: rotateX(0deg); opacity: 1; }
+}
+
+@keyframes flip {
+    100% { transform: rotateX(0deg); opacity: 1; }
+}
+
+
+/* EFFECT 5 */
+.effect-5 {
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    -webkit-animation: moveUp ease-in-out forwards;
+    -moz-animation: moveUp ease-in-out forwards;
+    animation: moveUp ease-in-out forwards;
+}
+
+
+/* EFFECT 6 */
+.effect-6 {
+
+    -webkit-transform: scale(0.638) translate(-179px);
+    -moz-transform: scale(0.638) translate(-179px);
+    transform: scale(0.638) translate(-179px);
+
+    -webkit-animation: moveUp ease-in-out forwards;
+    -moz-animation: moveUp ease-in-out forwards;
+    animation: moveUp ease-in-out forwards;
+}
+
+
+
+
+
+/* Universal durations */
+.effect-duration-1{
+    -webkit-animation-duration: .4s;
+    -moz-animation-duration: .4s;
+    animation-duration: .4s;
+}
+.effect-duration-2{
+    -webkit-animation-duration: .5s;
+    -moz-animation-duration: .5s;
+    animation-duration: .5s;
+}
+.effect-duration-3{
+    -webkit-animation-duration: .6s;
+    -moz-animation-duration: .6s;
+    animation-duration: .6s;
+}
+.effect-duration-4{
+    -webkit-animation-duration: .7s;
+    -moz-animation-duration: .7s;
+    animation-duration: .7s;
+}
+.effect-duration-5{
+    -webkit-animation-duration: .8s;
+    -moz-animation-duration: .8s;
+    animation-duration: .8s;
+}
+.effect-duration-6{
+    -webkit-animation-duration: .9s;
+    -moz-animation-duration: .9s;
+    animation-duration: .9s;
+}
+.effect-duration-7{
+    -webkit-animation-duration: .95s;
+    -moz-animation-duration: .95s;
+    animation-duration: .95s;
+}
+.effect-duration-8{
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    animation-duration: 1s;
+}
+.effect-duration-9{
+    -webkit-animation-duration: 1.05s;
+    -moz-animation-duration: 1.05s;
+    animation-duration: 1.05s;
+}
+.effect-duration-10{
+    -webkit-animation-duration: 1.1s;
+    -moz-animation-duration: 1.1s;
+    animation-duration: 1.1s;
+}
