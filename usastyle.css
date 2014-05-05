@@ -1,7 +1,6 @@
 .container {
     width:75%;
-    height:100%;
-        /* top, right, bottom, left margins*/
+            /* top, right, bottom, left margins*/
     /*margin: auto, auto, 10px, auto;*/
     border:1px solid #000;
     background: #679ED2;
