@@ -80,6 +80,9 @@ li {
     text-align:left;
     width: 90%;
 }
+h2 {
+    text-align:center;
+}
 .quote {
     font-family: Goudy Old Style, Garamond, Big Caslon, Times New Roman, serif;
     font-weight: bold;
