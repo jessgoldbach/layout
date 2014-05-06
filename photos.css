@@ -3,7 +3,7 @@
         /* top, right, bottom, left margins*/
     /*margin: auto, auto, 10px, auto;*/
     border:1px solid #000;
-    background: #D4F870;
+    background: #CAECCB;
 }
 
 .pageheader {
@@ -13,9 +13,9 @@
     /*background-image:url("http://www.athleat.co.uk/user/Grass_back.jpg");*/
     text-align:center;
     font-family: sans-Serif;
-    font-size: 22px;
+    font-size: 20px;
     color: #FFFF75;
-    text-shadow:1px 3px #000; /*it says that IE versions before 9 do not support shadow effects*/
+    text-shadow:2px 3px #000; /*it says that IE versions before 9 do not support shadow effects*/
     background-color: #2C6700;
 }
 .links {

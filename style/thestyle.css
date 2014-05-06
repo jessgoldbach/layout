@@ -3,11 +3,13 @@
         /* top, right, bottom, left margins*/
     /*margin: auto, auto, 10px, auto;*/
     border:1px solid #000;
-    background: #D4F870;
+    background: #CAECCB;
 }
 
 .pageheader {
-    padding: 1px;
+    padding: 5px;
+    padding-top:1%;
+    padding-bottom:1%;
     /*background-image:url("http://www.athleat.co.uk/user/Grass_back.jpg");*/
     text-align:center;
     font-family: sans-Serif;
