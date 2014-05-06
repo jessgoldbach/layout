@@ -68,15 +68,20 @@ li {
 }
 .thanks {
     text-indent:50px;
-    border:6px groove #FFF;
+    border:8px groove #FFF;
     margin:4%;
     width:50%;
-    padding: 5px;
+    padding: 1%;
+    padding-top:3%;
+    padding-bottom:2%;
     background: #E5E4D7;
     color:#0E200E;
     font-size:19px;
     text-align:left;
     width: 90%;
+}
+p2 {
+    text-align:center;
 }
 .quote {
     font-family: Goudy Old Style, Garamond, Big Caslon, Times New Roman, serif;
@@ -89,15 +94,16 @@ li {
 }
 .box {
     border:4px dotted #fff;
-    height:40%;
+    /*height:40%;
     width: 80%;
     margin:10%;
-}
+}*/
+
 /*img {
  
     height:100%;
     width:100%;*/
-}
+}*/
 .span3 {
     border: 2px solid #000;
     margin:5px;
