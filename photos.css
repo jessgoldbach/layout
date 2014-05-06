@@ -13,7 +13,7 @@
     /*background-image:url("http://www.athleat.co.uk/user/Grass_back.jpg");*/
     text-align:center;
     font-family: sans-Serif;
-    font-size: 20px;
+    font-size: 23px;
     color: #FFFF75;
     text-shadow:2px 3px #000; /*it says that IE versions before 9 do not support shadow effects*/
     background-color: #2C6700;
@@ -69,7 +69,7 @@ li {
 }
 
 .thanks {
-    border:2px solid #000;
+    border:2px ridge #666;
     margin:4%;
     width:50%;
     padding: 5px;
